@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/receiver_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:background="@drawable/reciever_message_layout"
+        android:text="@string/tv_receiver_text"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="5dp"
+    android:textColor="@android:color/holo_blue_dark"/>
+
+    <ImageView
+        android:id="@+id/message_sender_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="5dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/message_receiver_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="13dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+    <TextView
+        android:id="@+id/sender_msg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sender_message_layout"
+        android:text="@string/tv_sender_text"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginEnd="5dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp" />
+
+
+
+
+</RelativeLayout>

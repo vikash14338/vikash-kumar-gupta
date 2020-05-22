@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AutoChat</string>
+    <string name="tv_sender_text">sender messages here</string>
+    <string name="tv_receiver_text">receiver messages here</string>
+    <string-array name="sender">
+        <item >Hi</item>
+        <item>How are you?</item>
+        <item>I am also fine</item>
+        <item>chatting with your Bhabhi</item>
+        <item>Good and happy</item>
+    </string-array>
+    <string-array name="reciever">
+        <item >Hello</item>
+        <item>I am fine and you</item>
+        <item>What are you doing?</item>
+        <item>Enjoy bro.How is my bhabhi?</item>
+        <item>Are you </item>
+    </string-array>
+</resources>
